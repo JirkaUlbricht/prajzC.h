@@ -9,44 +9,23 @@
     ▀▀▀▀
 */
 // typy
-#define SOUBOR FILE
-#define plav float
-#define plov float
-#define plovoucí float
-#define vznášej float
-#define dvojnásobný double
-#define dvojnásobná double
-#define dvojnásobné double
+#define FAJL FILE
+#define plavci float
+#define plovuci float
+#define vznašaj float
+#define dvojnásobny double
 #define dvojitý double
-#define dvojitá double
-#define dvojité double
-#define číslo int
+#define numer int
 #define cel int // INTeger -> CELé číslo
 #define znak char
-#define dlouhý long
-#define dlouhá long
-#define dlouhé long
-#define krátký short
-#define krátká short
-#define krátké short
+#define dluhy long
+#define kratky short
 #define znaménkový signed
-#define znaménková signed
-#define znaménkové signed
 #define bezznaménkový unsigned
-#define bezznaménková unsigned
-#define bezznaménkové unsigned
 #define neznaménkový unsigned
-#define neznaménková unsigned
-#define neznaménkové unsigned
-#define prázdno void
 #define prázdný void
-#define prázdná void
-#define prázdné void
 #define nijaký void
-#define nijaká void
-#define nijaké void
-#define prázdnota void
-#define pravdivost bool
+#define pravdivosč bool
 
 // pokročilé celočíselné typy
 #define velikost_t size_t
@@ -78,44 +57,29 @@
 
 // paměťové třídy
 #define stálý static
-#define stálá static
-#define stálé static
 #define rejstřík register
 #define vnější extern
 #define samočinný auto
-#define samočinná auto
-#define samočinné auto
 #define automatický auto
-#define automatická auto
-#define automatické auto
 #define automobil auto
 #define samoodvozený auto
-#define samoodvozená auto
-#define samoodvozené auto
 
 // kvalifikátory typu
 #define konst const
 #define konstantní const
 #define neměnný const
-#define neměnná const
-#define neměnné const
 #define nestálý volatile
-#define nestálá volatile
-#define nestálé volatile
 // C99 kvalifikátory
 #define omezený restrict
-#define omezená restrict
-#define omezené restrict
 
 // logické konstrukce
-#define když if
-#define pokud if
-#define jestli if
-#define jestliže if
-#define jinak else
-#define dokud while
-#define zatímco while
-#define pro for
+#define jak if
+#define jakby if
+#define eli if
+#define inač else
+#define dokadž while
+#define póki while
+#define za for
 #define dělej do
 #define udělej do
 #define proveď do
@@ -129,8 +93,8 @@
 #define pokračuj continue
 
 // ostatní klíčová slova
-#define vrať return
-#define navrať return
+#define vrač return
+#define navrač return
 #define jdido goto
 #define velikost(x) sizeof(x)
 #define definujtyp typedef
@@ -144,16 +108,8 @@
 // operátory
 #define je ==
 #define rovný ==
-#define rovná ==
-#define rovné ==
-#define rovno ==
-#define rovnáse ==
 #define není !=
 #define nerovný !=
-#define nerovná !=
-#define nerovné !=
-#define nerovno !=
-#define nerovnáse !=
 #define je_menší <
 #define je_menší_nebo_rovno <=
 #define je_větší >
@@ -208,10 +164,10 @@
 #define stíchyb stderr
 
 // konstanty
-#define pravda 1
+#define prawda 1
 #define vcajku 1
 #define blbě 0
-#define nepravda 0
+#define nieprawda 0
 #define lež 0
 #define KŘ '\n'
 #define KS -1 //Konec Souboru
@@ -220,7 +176,7 @@
 // Knihovny
 
 // <time.h> - <čas.h>
-#define čas(x) time(x)
+#define cajt(x) time(x)
 
 // <stdio.h> - <spnvv.h>
 #define smaž(x) remove(x)
